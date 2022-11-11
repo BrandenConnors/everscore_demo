@@ -1,0 +1,251 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header {
+     color:black;
+     background-color: #fff;
+}
+
+body {
+     color : #727c90;
+     background-color: #fff;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+     font-size: 50px;
+     font-weight: 800;
+     font-style: bold;
+     text-align: left;
+     margin: 10px 0px;
+     padding: 50px 80px 50px 0px ;
+   }
+
+h2{
+     font-size: 60px;
+     font-weight: 800;
+     font-style: bold;
+     text-align: left;
+   }
+
+p {
+     font-size: 30px;
+     font-weight: 500;
+     font-style: bold;
+   }
+
+
+/******************************************
+/* Navigation
+/*******************************************/
+nav{
+     height: 80px;
+     width: 100%;
+     padding-left: 30px;
+     padding-right: 10px;
+}
+.logo {
+     width: 10%;
+   }
+   
+.nav-links {
+     list-style: none;
+   }
+
+.nav-item a {
+     display: inline-block;
+     padding: 10px 15px;
+     text-decoration: none;
+     color: black;
+   }
+.navbar {
+     display: flex;
+     align-items: center;
+     justify-content:flex-start; /* space-between is used to give space between the logo/nav-links/nav-icons  use flex-start to align the logo and nav-links to the left */
+     font-weight: 500;
+}
+
+.logo img {
+     width: 175px;
+     vertical-align: middle;
+   }
+
+.nav-links {
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     font-weight: 500;
+     width: 80%;
+   }
+
+   
+.nav-icons {
+     display: flex;
+     align-items: center;
+     justify-content: flex-end;
+     font-weight: 500;
+     padding: 50px;
+   }
+
+.nav-icons i {
+     padding: 0 10px;
+     color: black;
+   }
+
+
+/******************************************
+/* Hero Section
+/*******************************************/
+.hero-image {
+     width: 100%;
+     height: auto;
+}
+
+.hero-text {
+     display: flex;
+     align-items: center;
+     justify-content:space-between;
+     font-weight: 500;
+     width: 100%;
+}
+
+.caliva {
+     display: flex;
+     align-items: center; 
+     font-weight: 500;
+     width: 90%;
+     height: auto;
+  
+}
+
+.caliva img {
+     width: 80%;
+     margin: auto;
+     align-items: center;
+     height: auto;
+     vertical-align: middle;
+   }
+
+.mission {
+     align-items: center;
+     font-weight: 800;
+     width: 100%;
+    
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.feature-1 {
+     display: flex;
+     font-weight: 500;
+     width: 100%;
+     padding-left: 80px;
+} 
+.feature-text-1 {
+     align-items: center;
+     font-weight: 500;
+     width: 50%;
+     padding-left: 80px;
+     padding-top: 80px
+}
+.feature-image-1 {
+     width:70%;
+}
+
+.feature-1 img {
+     width: 100%;
+     margin: auto;
+     padding: 50px;;
+     align-items: center;
+     height: auto;
+     vertical-align: middle;
+   }
+
+.feature-2 {
+     display: flex;
+     align-items: center; 
+     font-weight: 500;
+     width: 100%;
+     padding-left: 80px;
+} 
+
+.feature-text-2 {
+     align-items: center;
+     font-weight: 800;
+     width: 50%;
+     padding: 80px;
+}
+.feature-image-2 {
+     width: 70%;
+}
+.feature-2 img{
+     width: 100%;
+     margin: auto;
+     padding: 50px;;
+     align-items: center;
+     height: auto;
+     vertical-align: middle;
+   }
+
+.explore {
+     background-color: #333d4c;
+     height:300px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content:space-around; 
+     font-weight: 500;
+     padding: 80px;
+}
+
+.explore-items {
+     height: auto;
+     text-align: center;
+     align-items: center;
+     color: white;
+     font-style: bold;
+     font-size: 20px;
+}
+
+.explore-items h3 {
+     font-size: 30px;
+     font-weight: 800;
+     font-style: bold;
+     color: white;
+     text-align: center;
+   }
+.explore-items span {
+     font-size: 20px;
+     font-style: normal;
+     color: white;
+   }
+
+footer {
+     color: white;
+     height: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
